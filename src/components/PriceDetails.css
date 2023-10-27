@@ -1,0 +1,43 @@
+.price-details-box {
+    width: 491px;
+    max-width: 100%; /* Ensure it's responsive */
+    height: 548px;
+    top: 144px;
+    left: 769px;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+    background-color: #f0f0f0;
+    overflow-y: auto; /* Make it scrollable vertically */
+  }
+  
+  .price-table {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .price-table p {
+    margin: 0;
+  }
+  
+  .pay-now-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  button {
+    background-color:#80B3FF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .timer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  

@@ -1,0 +1,42 @@
+.shieldGreen1Icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .safeAndSecure {
+    position: relative;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .classplusLogoIcon {
+    position: relative;
+    width: 158.3px;
+    height: 36.7px;
+  }
+  .classplusLogoParent,
+  .shieldGreen1Parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .shieldGreen1Parent {
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .classplusLogoParent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+    width: 1440px;
+    justify-content: space-between;
+    padding: 0 180px;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: var(--body-large-bold-size);
+    color: var(--color-mediumseagreen-100);
+    font-family: var(--font-roboto);
+  }

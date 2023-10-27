@@ -1,0 +1,143 @@
+:root {
+  color: #1EC86C;
+  color: #0A1629;
+  ;
+}
+
+* {
+  margin: 0;
+}
+
+.classplusLogoIcon {
+  position: relative;
+  width: 137.9px;
+  height: 32px;
+}
+
+.shieldGreen1Icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.safeAndSecure {
+  all: unset;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: Roboto;
+  font-size: 16px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #1EC86C;
+
+}
+
+.classplusLogoParent,
+.shieldGreen1Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.shieldGreen1Parent {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.classplusLogoParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+  width: 1440px;
+  justify-content: space-between;
+  padding: 0 180px;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--body-large-bold-size);
+  color: var(--color-mediumseagreen-100);
+  font-family: var(--font-roboto);
+}
+.navbar{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 80px;
+padding: 0px, 180px, 0px, 180px;
+  align-items: center;
+  }
+
+.shieldGreen1Icon {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #1EC86C;
+
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.box {
+  width: 100%; 
+  height: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ 
+}
+/* styles.css */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* You can adjust the padding as needed */
+  max-width: 100%; /* Set the desired width */
+  margin: 0 auto; /* Center the container on the page */
+}
+
+.logo {
+  /* Optionally, you can style the logo separately, e.g., set a maximum width. */
+  max-width: 100px; /* Adjust this value as needed */
+}
+
+
+
+
+.hero {
+ margin-top: -50px;
+  display: flex;
+  align-items: center;
+  height: calc(30vh-80px);
+}
+.hero h1 {
+  font-weight: 700;
+  font-family: 'OpenSauceOneRegular';
+  size: 18px;
+  margin-bottom: 20px;
+  line-height: 24px;
+  font-size: 20px;
+  color: #1A181E;
+  height:  (68px);
+  left: 180px;
+}
+.hero p{
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-bottom: 20px ;
+  line-height: 28px;
+  font-size: 16px;
+  font: Roboto;
+  color: #1A181E;
+  
+}

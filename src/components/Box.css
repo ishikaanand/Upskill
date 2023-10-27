@@ -1,0 +1,41 @@
+.box {
+    width: 500px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+
+    flex-direction: column;
+  }
+  
+  .heading {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .detail-heading {
+    font-weight: bold;
+    margin-right: 300px ;
+    margin-bottom: 20px;
+  }
+  .p-detail {
+    display: flex;
+  }
+  
+  .detail-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  .price {
+    color: #007bff;
+  }
+  
